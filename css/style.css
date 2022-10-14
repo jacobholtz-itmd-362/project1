@@ -1,7 +1,111 @@
-body {
-	background-image: url("assets/campus.jpg");
+@font-face {
+	font-family: Inter;
+	src: url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 }
 
-@media screen and (max-width: 480px){
+@font-face {
+	font-family: Poppins;
+	src: url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+}
 
+.info {
+  padding-top: 5%;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 25px;
+}
+
+li#input-email {
+	text-align: center;
+	margin-bottom: 1.5em;
+	font-size: 30px;
+	background-color: rgba(87, 166, 255, 0.25);
+	font-weight: bold;
+	color: white;
+}
+
+li#input-first_name {
+	text-align: center;
+	margin-bottom: 1.5em;
+	font-size: 30px;
+	background-color: rgba(87, 166, 255, 0.25);
+	font-weight: bold;
+	color: white;
+}
+
+li#input-last_name {
+	margin-bottom: 1.5em;
+	font-size: 30px;
+	background-color: rgba(87, 166, 255, 0.25);
+	font-weight: bold;
+	color: white;
+}
+
+li#input-submit{
+	padding-top: 25px;
+	font-size: 30px;
+	font-family: 'Inter', sans-serif;
+}
+
+.form {
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom: 15%;
+	position: relative;
+	font-family: 'Inter', sans-serif;
+}
+
+body {
+	background-image: url("../assets/campus.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 480px){
+	
+	body {
+		background-size: auto auto;
+	}
+
+
+	li#input-email {
+	text-align: center;
+	margin-bottom: 1.5em;
+	font-size: 25px;
+	background-color: rgba(87, 166, 255, 0.25);
+	font-weight: bold;
+	color: white;
+}
+
+li#input-first_name {
+	text-align: center;
+	margin-bottom: 1.5em;
+	font-size: 25px;
+	background-color: rgba(87, 166, 255, 0.25);
+	font-weight: bold;
+	color: white;
+}
+
+li#input-last_name {
+	margin-bottom: 1.5em;
+	font-size: 25px;
+	background-color: rgba(87, 166, 255, 0.25);
+	font-weight: bold;
+	color: white;
+}
+
+li#input-submit{
+	padding-top: 25px;
+	font-size: 25px;
+	font-family: 'Inter', sans-serif;
+}
+
+.form {
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom: 15%;
+	position: relative;
+	font-family: 'Inter', sans-serif;
+}
 }
