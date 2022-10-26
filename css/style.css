@@ -68,6 +68,9 @@ body {
 		background-size: auto auto;
 	}
 
+	label {
+		display: inline-block;
+	}
 
 	li#input-email {
 	text-align: center;
@@ -76,6 +79,7 @@ body {
 	background-color: rgba(87, 166, 255, 0.25);
 	font-weight: bold;
 	color: white;
+	display: inline-block;
 }
 
 	li#input-first_name {
@@ -85,6 +89,7 @@ body {
 		background-color: rgba(87, 166, 255, 0.25);
 		font-weight: bold;
 		color: white;
+		display: inline-block;
 }
 
 	li#input-last_name {
@@ -93,12 +98,14 @@ body {
 		background-color: rgba(87, 166, 255, 0.25);
 		font-weight: bold;
 		color: white;
+		display: inline-block;
 	}
 
 	li#input-submit{
 		padding-top: 25px;
 		font-size: 25px;
 		font-family: 'Inter', sans-serif;
+		display: inline-block;
 	}
 
 	.form {
