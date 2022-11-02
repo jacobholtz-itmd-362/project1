@@ -61,6 +61,60 @@ body {
 	background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 340px) and (max-width: 480px){
+body {
+		background-size: auto auto;
+	}
+
+	label {
+		display: inline-block;
+	}
+
+	li#input-email {
+	float: left;
+	margin-bottom: 1.5em;
+	font-size: 25px;
+	background-color: rgba(87, 166, 255, 0.25);
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+}
+
+	li#input-first_name {
+		float: left;
+		margin-bottom: 1.5em;
+		font-size: 25px;
+		background-color: rgba(87, 166, 255, 0.25);
+		font-weight: bold;
+		color: white;
+		display: inline-block;
+}
+
+	li#input-last_name {
+		float: left;
+		margin-bottom: 1.5em;
+		font-size: 25px;
+		background-color: rgba(87, 166, 255, 0.25);
+		font-weight: bold;
+		color: white;
+		display: inline-block;
+	}
+
+	li#input-submit{
+		padding-top: 25px;
+		font-size: 25px;
+		font-family: 'Inter', s\ans-serif;
+		display: inline-block;
+	}
+
+	.form {
+		text-align: center;
+		padding-top: 15%;
+		padding-bottom: 15%;
+		position: relative;
+		font-family: 'Inter', sans-serif;
+	}
+}
 
 @media screen and (max-width: 480px){
 	
